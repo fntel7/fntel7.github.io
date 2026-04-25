@@ -1,8 +1,7 @@
 ---
 permalink: /robots.txt
 ---
-# Preview phase: block all crawlers while the site is on fntel7.github.io.
-# When fotisdelis.com goes live and content is reviewed, restore the
-# permissive version (Disallow empty) and re-add the Sitemap line.
 User-agent: *
-Disallow: /
+Disallow:
+
+Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
