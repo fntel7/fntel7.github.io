@@ -1,8 +1,8 @@
 ---
 layout: page
-title: interactive tools
+title: Interactive tools
 permalink: /projects/
-description: Interactive explorers built around the public datasets.
+description: Interactive explorers built around profit shifting estimates.
 nav: true
 nav_order: 4
 horizontal: false

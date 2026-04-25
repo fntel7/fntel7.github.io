@@ -11,8 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Fotis Delis — Economist at the European Commission's Joint Research Centre (JRC), Seville. Research on international corporate taxation, profit shifting, and multinational enterprises.
 footer_text: >
-  <em>The views expressed here are those of the author and do not represent those of the European Commission or the Joint Research Centre.</em>
-  &middot; Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <br><em>The views expressed here are those of the author and do not represent those of the European Commission or the Joint Research Centre.</em>
 keywords: profit shifting, multinational enterprises, corporate taxation, tax havens, MNE tax planning, BEPS, Pillar Two, Orbis, international taxation, JRC, European Commission
 lang: en
 icon: 📊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -332,7 +331,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # blank = always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

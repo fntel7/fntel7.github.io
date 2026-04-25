@@ -1,15 +1,15 @@
 ---
 layout: page
 permalink: /data/
-title: data
-description: Public datasets released alongside published research.
+title: Data
+description:
 nav: true
 nav_order: 3
 ---
 
-## Profit-shifting estimates — Delis, Delis, Laeven & Ongena (*JAE*, 2025)
+## <span style="white-space: nowrap;">Profit-shifting estimates — Delis, Delis, Laeven & Ongena (*JAE*, 2025)</span>
 
-Country-year and industry-year aggregates of profit shifted by multinational enterprises, **2009–2020**, covering more than 100 countries. Built from firm-level Orbis panel data using nonparametric estimation. The interactive explorer is on the [Interactive tools](/projects/) page.
+These are the underlying data of the interactive [profit-shifting explorer](/projects/). Country-year and industry-year aggregates of profit shifted by multinational enterprises, **2009–2020**, covering more than 100 countries. Built from firm-level panel data using nonparametric estimation.
 
 **Direct downloads:**
 
@@ -25,9 +25,3 @@ Delis, F., Delis, M.D., Laeven, L., and Ongena, S. (2025).
 "Global Evidence on Profit Shifting Within Firms and Across Time."
 Journal of Accounting and Economics, 79(2).
 ```
-
-**Interpretation note.** The estimates are **group-level aggregates** over (GUO country × lowest-tax country × year) combinations — *not* bilateral flows. A value for `(United States, Cayman Islands, 2018)` means: total profit shifted by MNEs whose Global Ultimate Owner is in the United States *and* whose lowest-tax jurisdiction in the group is the Cayman Islands, in 2018. It does not mean "the US sent X to the Cayman Islands."
-
----
-
-*Zenodo DOI: forthcoming. Replication materials: forthcoming.*
