@@ -36,9 +36,12 @@ latest_posts:
     .about-photo { width: 46%; max-width: none; }
   }
 
-  /* Spacing around social icons */
+  /* Bio text — justified */
+  .clearfix p { text-align: justify; }
+
+  /* Spacing around social icons (equal top and bottom) */
   .social {
-    margin: 3rem 0 2.5rem;
+    margin: 3rem 0;
     clear: both;
   }
   .contact-icons { font-size: 2.8rem; }
@@ -52,8 +55,11 @@ latest_posts:
   .contact-icons a i.ai-cv-square::before,
   .contact-icons a i.fa-file-pdf::before        { color: #003d7a; }
 
-  /* Spacing before the publications heading */
-  article > h2 { margin-top: 2.5rem; }
+  /* Centre the publications heading and give it equal spacing */
+  article > h2 {
+    margin-top: 0;
+    text-align: center;
+  }
 </style>
 
 <img src="{{ '/assets/img/fotis_1.png' | relative_url }}" alt="Fotis Delis" class="about-photo about-photo-left">

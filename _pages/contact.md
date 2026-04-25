@@ -7,11 +7,17 @@ nav: true
 nav_order: 5
 ---
 
+<style>
+  /* Keep the contact page narrow so the right column doesn't dwarf the text */
+  .post { max-width: 720px; margin: 0 auto; }
+</style>
+
 **Email** — [fotios.ntelis@ec.europa.eu](mailto:fotios.ntelis@ec.europa.eu)
 
 **Affiliation**
 European Commission, Joint Research Centre (JRC)
 Seville, Spain
+C. Inca Garcilaso, 3, 41092
 
 **Profiles**
 
