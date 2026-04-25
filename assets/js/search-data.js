@@ -4,34 +4,34 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-research",
-          title: "research",
-          description: "Publications, working papers, and work in progress.",
+          title: "Research",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-data",
-          title: "data",
-          description: "Public datasets released alongside published research.",
+          title: "Data",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/data/";
           },
         },{id: "nav-interactive-tools",
-          title: "interactive tools",
-          description: "Interactive explorers built around the public datasets.",
+          title: "Interactive tools",
+          description: "Interactive explorers built around profit shifting estimates.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-contact",
-          title: "contact",
+          title: "Contact",
           description: "How to get in touch.",
           section: "Navigation",
           handler: () => {
@@ -73,11 +73,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/fotis-delis-5186aa199", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("/assets/pdf/FotisDelis_CV.docx", "_blank");
         },
       },{
       id: 'light-theme',
