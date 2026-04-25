@@ -9,7 +9,7 @@ nav_order: 3
 
 ## <span style="white-space: nowrap;">Profit-shifting estimates — Delis, Delis, Laeven & Ongena (*JAE*, 2025)</span>
 
-These are the underlying data of the interactive [profit-shifting explorer](/projects/). Country-year and industry-year aggregates of profit shifted by multinational enterprises, **2009–2020**, covering more than 100 countries. Built from firm-level panel data using nonparametric estimation.
+These are the underlying data of the interactive [profit-shifting explorer](/projects/). Country-year and industry-year aggregates of profit shifted by multinational enterprises, **2009–2020**, covering more than 100 countries and 19 industries. Built from firm-level panel data using nonparametric estimation.
 
 **Direct downloads:**
 
@@ -21,7 +21,6 @@ These are the underlying data of the interactive [profit-shifting explorer](/pro
 **Citation:**
 
 ```
-Delis, F., Delis, M.D., Laeven, L., and Ongena, S. (2025).
-"Global Evidence on Profit Shifting Within Firms and Across Time."
+Delis, F., Delis, M.D., Laeven, L., and Ongena, S. (2025). "Global Evidence on Profit Shifting Within Firms and Across Time."
 Journal of Accounting and Economics, 79(2).
 ```
