@@ -52,34 +52,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/profit-shifting-explorer/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%66%6F%74%69%6F%73.%6E%74%65%6C%69%73@%65%63.%65%75%72%6F%70%61.%65%75", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=aDjWfSEAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/fotis-delis-5186aa199", "_blank");
-        },
-      },{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/FotisDelis_CV.docx", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
