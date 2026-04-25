@@ -3,6 +3,8 @@
 
 email: fotios.ntelis@ec.europa.eu
 scholar_userid: aDjWfSEAAAAJ           # Google Scholar
-ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4343123"
 linkedin_username: fotis-delis-5186aa199
 rss_icon: true
+# Note: SSRN is not supported by jekyll-socials v0.0.7 out of the box.
+# It lives on the Contact page. Re-introduce here as a custom_social
+# block once we have an SSRN SVG logo at assets/img/ssrn.svg.
