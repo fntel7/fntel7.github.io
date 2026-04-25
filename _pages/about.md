@@ -39,9 +39,9 @@ latest_posts:
   /* Bio text — justified */
   .clearfix p { text-align: justify; }
 
-  /* Spacing around social icons (equal top and bottom) */
+  /* Spacing around social icons — equal top and bottom, with breathing room */
   .social {
-    margin: 3rem 0;
+    margin: 4rem 0;
     clear: both;
   }
   .contact-icons { font-size: 2.8rem; }
@@ -55,9 +55,17 @@ latest_posts:
   .contact-icons a i.ai-cv-square::before,
   .contact-icons a i.fa-file-pdf::before        { color: #003d7a; }
 
-  /* Centre the publications heading and give it equal spacing */
+  /* Centre the publications heading */
   article > h2 {
-    margin-top: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  /* Centre the body of each selected publication (authors, journal, links)
+     while leaving the title left-aligned per Fotis's preference. */
+  .publications .author,
+  .publications .periodical,
+  .publications .links {
     text-align: center;
   }
 </style>

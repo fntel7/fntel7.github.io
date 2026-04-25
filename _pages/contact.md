@@ -8,8 +8,16 @@ nav_order: 5
 ---
 
 <style>
-  /* Keep the contact page narrow so the right column doesn't dwarf the text */
-  .post { max-width: 720px; margin: 0 auto; }
+  /* Narrow the contact column and vertically centre it within the viewport
+     so the dark fixed footer doesn't sit far below an island of content. */
+  .post {
+    max-width: 720px;
+    margin: 0 auto;
+    min-height: calc(100vh - 220px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 </style>
 
 **Email** — [fotios.ntelis@ec.europa.eu](mailto:fotios.ntelis@ec.europa.eu)
