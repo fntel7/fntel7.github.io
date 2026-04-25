@@ -60,14 +60,6 @@ latest_posts:
     margin-top: 1rem;
     text-align: center;
   }
-
-  /* Centre the body of each selected publication (authors, journal, links)
-     while leaving the title left-aligned per Fotis's preference. */
-  .publications .author,
-  .publications .periodical,
-  .publications .links {
-    text-align: center;
-  }
 </style>
 
 <img src="{{ '/assets/img/fotis_1.png' | relative_url }}" alt="Fotis Delis" class="about-photo about-photo-left">
