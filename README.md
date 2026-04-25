@@ -20,3 +20,6 @@ al-folio docs are kept in repo root: `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `TR
 ## License
 
 Theme: MIT (al-folio). Site content: © Fotis Delis.
+
+<!-- build trigger -->
+
