@@ -1,20 +1,8 @@
 # Social and contact links shown in the about-page icon row and footer.
-# Order here = order on the page.
+# CEPR and JRC profile links live on the Contact page (no SVG icons set up yet).
 
 email: fotios.ntelis@ec.europa.eu
 scholar_userid: aDjWfSEAAAAJ           # Google Scholar
 ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4343123"
-orcid_id: 0000-0000-0000-0000          # TODO: replace with real ORCID once Fotis confirms
 linkedin_username: fotis-delis-5186aa199
 rss_icon: true
-
-# Custom links (CEPR, JRC) — al-folio's "custom_social" lets us add arbitrary icons.
-custom_social:
-  cepr:
-    logo: assets/img/cepr.svg
-    title: CEPR
-    url: https://cepr.org/about/people/fotis-delis
-  jrc:
-    logo: assets/img/jrc.svg
-    title: JRC profile
-    url: https://joint-research-centre.ec.europa.eu/fotis-delis_en

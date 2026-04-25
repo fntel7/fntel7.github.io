@@ -2,7 +2,7 @@
 layout: page
 title: Profit Shifting Explorer
 description: Interactive country-year and industry-year estimates of profit shifted by MNEs, 2009–2020.
-img: assets/img/profit_shifting_thumb.png
+img: assets/img/12.jpg
 importance: 1
 category: research
 related_publications: true
