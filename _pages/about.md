@@ -39,9 +39,9 @@ latest_posts:
   /* Bio text — justified */
   .clearfix p { text-align: justify; }
 
-  /* Spacing around social icons — equal top and bottom, with breathing room */
+  /* Spacing around social icons — slightly tighter above (per Fotis) */
   .social {
-    margin: 4rem 0;
+    margin: 2.5rem 0 4rem;
     clear: both;
   }
   .contact-icons { font-size: 2.8rem; }
