@@ -39,6 +39,21 @@ latest_posts:
   /* Bio text — justified */
   .clearfix p { text-align: justify; }
 
+  /* Phones: hide the second photo, centre the first above the bio,
+     drop justified text so word-spacing doesn't get ugly in a narrow column.
+     Placed after the base rules so it wins by source order. */
+  @media (max-width: 600px) {
+    .about-photo-right { display: none; }
+    .about-photo-left {
+      float: none;
+      display: block;
+      margin: 0 auto 1.5rem;
+      width: 65%;
+      max-width: 280px;
+    }
+    .clearfix p { text-align: left; }
+  }
+
   /* Spacing around social icons — slightly tighter above (per Fotis) */
   .social {
     margin: 2.5rem 0 4rem;
