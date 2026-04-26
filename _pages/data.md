@@ -13,7 +13,7 @@ These are the underlying data of the interactive [profit-shifting explorer](/pro
 
 **Direct downloads:**
 
-- [`country_data.csv`](https://fntel7.github.io/profit-shifting-explorer/country_data.csv) — country-year estimates by (GUO country × lowest-tax country × year).
+- [`country_data.csv`](https://fntel7.github.io/profit-shifting-explorer/country_data.csv) — country-year estimates by GUO (Global Ultimate Owner) country × lowest-tax country × year.
 - [`industry_data.csv`](https://fntel7.github.io/profit-shifting-explorer/industry_data.csv) — industry-year estimates by GUO industry (NACE Rev.2).
 
 **Firm-year and MNE-year estimates** are available on request — please [email me](mailto:fotios.ntelis@ec.europa.eu) with a one-line description of the intended use.
