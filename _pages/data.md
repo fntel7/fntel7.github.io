@@ -7,15 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<style>
-  /* Keep the long title on a single line on desktop, but allow it to wrap on
-     phones — otherwise the page itself widens and forces horizontal scroll. */
-  @media (min-width: 768px) {
-    .nowrap-desktop { white-space: nowrap; }
-  }
-</style>
-
-## <span class="nowrap-desktop">Profit-shifting estimates — Delis, Delis, Laeven & Ongena (*JAE*, 2025)</span>
+## Profit-shifting estimates
 
 These are the underlying data of the interactive [profit-shifting explorer](/projects/). Country-year and industry-year aggregates of profit shifted by multinational enterprises, **2009–2020**, covering more than 100 countries and 19 industries. Built from firm-level panel data using nonparametric estimation.
 
